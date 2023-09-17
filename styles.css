@@ -1,0 +1,81 @@
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+    background-color: red;
+    color: darkred;
+    border-radius: 25px;
+}
+
+.title.child {
+    display: inline;
+    border-left: solid;
+    border-right: solid;
+    border-width: 10px;
+    border-color: darkred;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.recipes {
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 80px;
+    padding-top: 30px;
+    border-top: solid;
+    border-width: 4px;
+    border-top-style: double;
+    text-justify: auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+.recipe {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: black;
+}
+
+.recipe:hover {
+    color: blue;
+    text-decoration: underline;
+    font-style: italic;
+    
+}
+
+
+.container {
+    padding-left: 20px;
+    
+}
+
+.titleRecipe {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    font-style: italic;
+    padding-left: 24px;
+}
+
+.titleContainer {
+    display: inline;
+    padding: 10px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: solid;
+    border-width: 4px;
+    border-color: black;
+    background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(216, 216, 216) 50%, rgb(255, 0, 0) 100%);
+}
+
+.image {
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+}
